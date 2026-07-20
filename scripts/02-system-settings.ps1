@@ -28,8 +28,3 @@ Set-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseSensitivity" -Val
 Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "WheelScrollLines" -Value "7"
 
 Write-Host "マウス設定を変更しました(サインアウト後に完全に反映されます)" -ForegroundColor Cyan
-
-Write-Host
-
-Write-Host "Enterキーを押して終了してください..."
-Read-Host
