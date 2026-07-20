@@ -31,6 +31,3 @@ Write-Host "===== [5/5] Git設定 =====" -ForegroundColor Magenta
 Write-Host ""
 Write-Host "===== すべてのセットアップが完了しました =====" -ForegroundColor Green
 Write-Host "サインアウト→サインインすると、フォルダ移動などの設定が完全に反映されます" -ForegroundColor Yellow
-Write-Host ""
-Write-Host "Enterキーを押して終了してください..."
-Read-Host
