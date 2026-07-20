@@ -161,6 +161,3 @@ foreach ($key in $knownFolders.Keys)
 # 変更を反映するためエクスプローラー再起動
 Stop-Process -Name explorer -Force
 Start-Process explorer
-
-Write-Host "Enterキーを押して終了してください..."
-Read-Host
