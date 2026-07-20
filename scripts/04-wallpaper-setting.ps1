@@ -31,6 +31,3 @@ $SPIF_SENDCHANGE = 0x02
 [Wallpaper]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $wallpaperPath, ($SPIF_UPDATEINIFILE -bor $SPIF_SENDCHANGE))
 
 Write-Host "壁紙を変更しました: $wallpaperPath" -ForegroundColor Green
-
-Write-Host "Enterキーを押して終了してください..."
-Read-Host
