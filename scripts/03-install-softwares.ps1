@@ -84,6 +84,3 @@ else
         Write-Host " - $item" -ForegroundColor Red
     }
 }
-
-write-Host
-read-Host "Enterキーを押すと終了します"
