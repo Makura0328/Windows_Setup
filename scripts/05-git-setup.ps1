@@ -69,7 +69,7 @@ git config --global credential.helper manager
 Write-Host "Gitの設定が完了しました" -ForegroundColor Green
 git config --global --list
 
-# ===== SSH鍵の生成 =====
+# ssh鍵の生成
 $sshDir = "$env:USERPROFILE\.ssh"
 $sshKeyPath = "$sshDir\id_ed25519"
 
