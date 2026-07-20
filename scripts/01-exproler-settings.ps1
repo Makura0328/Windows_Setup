@@ -118,7 +118,7 @@ public class KnownFolders
 "@
 Add-Type -TypeDefinition $code
 
-$targetRoot = "D:\"   # ← 好きな場所に変更してください
+$targetRoot = "E:\"
 
 if (-not (Test-Path $targetRoot))
 {
