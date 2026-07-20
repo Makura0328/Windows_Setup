@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "Sources": [
+    {
+      "Packages": [
+        { "PackageIdentifier": "7zip.7zip" },
+        { "PackageIdentifier": "Git.Git" },
+        { "PackageIdentifier": "Microsoft.Office" },
+        { "PackageIdentifier": "Unity.UnityHub" },
+        { "PackageIdentifier": "Wacom.WacomTabletDriver" },
+        { "PackageIdentifier": "EpicGames.EpicGamesLauncher" },
+        { "PackageIdentifier": "Logitech.OptionsPlus" },
+        { "PackageIdentifier": "Microsoft.VisualStudio.Community" },
+        { "PackageIdentifier": "Amazon.Kindle" },
+        { "PackageIdentifier": "Google.Chrome.EXE" },
+        { "PackageIdentifier": "OBSProject.OBSStudio" },
+        { "PackageIdentifier": "Microsoft.OneDrive" },
+        { "PackageIdentifier": "Valve.Steam" },
+        { "PackageIdentifier": "Celsys.ClipStudioPaint" },
+        { "PackageIdentifier": "Neosku.AviUtl2-Catalog" },
+        { "PackageIdentifier": "Discord.Discord" },
+        { "PackageIdentifier": "Microsoft.PowerToys" },
+        { "PackageIdentifier": "Python.Python.3.14" },
+        { "PackageIdentifier": "Microsoft.VisualStudioCode" },
+        { "PackageIdentifier": "Microsoft.WindowsTerminal" },
+        { "PackageIdentifier": "Microsoft.WSL" },
+        { "PackageIdentifier": "Microsoft.Teams" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    },
+    {
+      "Packages": [
+        { "PackageIdentifier": "XP8CLZL93F5Z4P" },
+        { "PackageIdentifier": "XPFCC4CD725961" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+        "Identifier": "StoreEdgeFD",
+        "Name": "msstore",
+        "Type": "Microsoft.Rest"
+      }
+    }
+  ]
+}
