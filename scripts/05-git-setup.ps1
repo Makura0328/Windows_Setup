@@ -97,6 +97,3 @@ ssh-add $sshKeyPath
 
 Write-Host "`n以下が公開鍵です。GitHub/GitLabなどに登録してください:" -ForegroundColor Yellow
 Get-Content "$sshKeyPath.pub"
-
-Write-Host "`nEnterキーを押して終了してください..."
-Read-Host
