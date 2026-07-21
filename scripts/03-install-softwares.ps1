@@ -47,14 +47,6 @@ foreach($source in $json.Sources)
 
         $id = $pkg.PackageIdentifier
 
-        # 既にインストール済みかチェック(冪等性)
-        $installed = winget list --id $id --exact 2>$null
-        if ($LASTEXITCODE -eq 0) 
-        {
-            Write-Host "${id} は既にインストール済みなのでスキップします" -ForegroundColor DarkGray
-            continue
-        }
-
         # インストール中メッセージ表示
         Write-Host "${id} を ${sourceName} からインストール中" -ForegroundColor Cyan
 
